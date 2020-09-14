@@ -1,0 +1,17 @@
+.mainCard {
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    
+    
+}
+
+.wall {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
