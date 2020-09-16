@@ -118,12 +118,12 @@ function itemHierarchy(){
   outcome = "draw"
 }
 
-if (P1Selection == 1  && ( compSelection == 2 )) {
+if (P1Selection = 1  && ( compSelection = 2 )) {
     console.log("Lose")
     outcome = "Lose"
   }
 
-  if (P1Selection == 1  && ( compSelection == 3 )) {
+  if (P1Selection = 1  && ( compSelection = 3 )) {
     console.log("Win")
     outcome = "Win"
   }
@@ -154,17 +154,17 @@ if (P1Selection == 2) {
 
 if (P1Selection ==  3 ){
 
-  if (P1Selection ==  3  && ( compSelection == 1 )) {
+  if (P1Selection ==  3  && ( compSelection = 1 )) {
     console.log("Lose")
     outcome = "Lose"
   }
 
-  if (P1Selection == 3  && ( compSelection == 2 )) {
+  if (P1Selection = 3  && ( compSelection = 2 )) {
     console.log("Win")
     outcome = "Win"
   }
 
-  if (P1Selection == 3  && ( compSelection == 3)) {
+  if (P1Selection = 3  && ( compSelection = 3)) {
     console.log("draw")
     outcome = "draw"
   }

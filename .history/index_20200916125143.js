@@ -118,7 +118,7 @@ function itemHierarchy(){
   outcome = "draw"
 }
 
-if (P1Selection == 1  && ( compSelection == 2 )) {
+if (P1Selection = 1  && ( compSelection == 2 )) {
     console.log("Lose")
     outcome = "Lose"
   }

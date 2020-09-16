@@ -9,12 +9,15 @@ const Rock = 1;
 const Paper = 2;
 const Scissors = 3;
 
-
+function randomNumberGen() {
+   randomNumber = Math.ceil(Math.random() * 3);
+compSelection = randomNumber;
+console.log(compSelection + "comp Selection");
+}
 
 function howToPlay(){
  alert("click either rock paper or ... and confirm your selection once this is completed the second user will be able to place their selection then rumble!");   
 }
-
 
 
 // function compSelectionSvg() {
@@ -68,6 +71,14 @@ function howToPlay(){
 
 // }
 
+function itemHierarchy(){
+   
+    if (compSelection = 1  && ( P1Selection = 1 )) {
+  console.log
+}
+
+}
+
 function goToGame() {
     window.location.replace("game.html");
 }
@@ -88,89 +99,6 @@ function  ScissorsP1() {
     console.log(P1Selection)
 }
 
+function Calculation() {
 
-function startGame() {
-    itemHierarchy();
-    // reset game   
-    setTimeout(1000)
-    console.log("Reseting in 1")
-    setTimeout(1000)
-    console.log("Reseting in 2")
-    setTimeout(1000)
-    console.log("Reseting in 3")
-    randomNumberGen()
-
-}
-
-function randomNumberGen() {
-    randomNumber = Math.ceil(Math.random() * 3);
- compSelection = randomNumber;
- console.log(compSelection + "comp Selection");
- }
-
-function itemHierarchy(){
-   
-    if (P1Selection == 1 ) {
-
-
-    if (P1Selection == 1  && ( compSelection == 1 )) {
-  console.log("draw")
-  outcome = "draw"
-}
-
-if (P1Selection == 1  && ( compSelection == 2 )) {
-    console.log("Lose")
-    outcome = "Lose"
-  }
-
-  if (P1Selection == 1  && ( compSelection == 3 )) {
-    console.log("Win")
-    outcome = "Win"
-  }
-
-}
-
-// ROCK DONE ^
-
-if (P1Selection == 2) {
-
-  if (P1Selection == 2  && (compSelection == 1 )) {
-    console.log("Win")
-    outcome = "Win"
-  }
-
-  if (P1Selection == 2  && ( compSelection == 2 )) {
-    console.log("Draw")
-    outcome = "Draw"
-  }
-
-  if (P1Selection ==  2  && ( compSelection ==  3)) {
-    console.log("Lose")
-    outcome = "Lose"
-  }
-
-}
-// PAPER DONE ^
-
-if (P1Selection ==  3 ){
-
-  if (P1Selection ==  3  && ( compSelection == 1 )) {
-    console.log("Lose")
-    outcome = "Lose"
-  }
-
-  if (P1Selection == 3  && ( compSelection == 2 )) {
-    console.log("Win")
-    outcome = "Win"
-  }
-
-  if (P1Selection == 3  && ( compSelection == 3)) {
-    console.log("draw")
-    outcome = "draw"
-  }
-
-}
-
-//   SCISSORS DONE ^  
-  
 }

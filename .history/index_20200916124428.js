@@ -90,16 +90,8 @@ function  ScissorsP1() {
 
 
 function startGame() {
+    randomNumberGen();
     itemHierarchy();
-    // reset game   
-    setTimeout(1000)
-    console.log("Reseting in 1")
-    setTimeout(1000)
-    console.log("Reseting in 2")
-    setTimeout(1000)
-    console.log("Reseting in 3")
-    randomNumberGen()
-
 }
 
 function randomNumberGen() {
@@ -110,20 +102,20 @@ function randomNumberGen() {
 
 function itemHierarchy(){
    
-    if (P1Selection == 1 ) {
+    if (P1Selection = 1 ) {
 
 
-    if (P1Selection == 1  && ( compSelection == 1 )) {
+    if (P1Selection = 1  && ( P1Selection = 1 )) {
   console.log("draw")
   outcome = "draw"
 }
 
-if (P1Selection == 1  && ( compSelection == 2 )) {
+if (P1Selection = 1  && ( P1Selection = 2 )) {
     console.log("Lose")
     outcome = "Lose"
   }
 
-  if (P1Selection == 1  && ( compSelection == 3 )) {
+  if (P1Selection = 1  && ( P1Selection = 3 )) {
     console.log("Win")
     outcome = "Win"
   }
@@ -132,19 +124,19 @@ if (P1Selection == 1  && ( compSelection == 2 )) {
 
 // ROCK DONE ^
 
-if (P1Selection == 2) {
+if (P1Selection = 2) {
 
-  if (P1Selection == 2  && (compSelection == 1 )) {
+  if (compSelection = 2  && ( P1Selection = 1 )) {
     console.log("Win")
     outcome = "Win"
   }
 
-  if (P1Selection == 2  && ( compSelection == 2 )) {
+  if (compSelection = 2  && ( P1Selection = 2 )) {
     console.log("Draw")
     outcome = "Draw"
   }
 
-  if (P1Selection ==  2  && ( compSelection ==  3)) {
+  if (compSelection = 2  && ( P1Selection = 3)) {
     console.log("Lose")
     outcome = "Lose"
   }
@@ -152,19 +144,19 @@ if (P1Selection == 2) {
 }
 // PAPER DONE ^
 
-if (P1Selection ==  3 ){
+if (P1Selection = 3 ){
 
-  if (P1Selection ==  3  && ( compSelection == 1 )) {
+  if (compSelection = 3  && ( P1Selection = 1 )) {
     console.log("Lose")
     outcome = "Lose"
   }
 
-  if (P1Selection == 3  && ( compSelection == 2 )) {
+  if (compSelection = 3  && ( P1Selection = 2 )) {
     console.log("Win")
     outcome = "Win"
   }
 
-  if (P1Selection == 3  && ( compSelection == 3)) {
+  if (compSelection = 3  && ( P1Selection = 3)) {
     console.log("draw")
     outcome = "draw"
   }
