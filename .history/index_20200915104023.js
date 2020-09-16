@@ -16,7 +16,7 @@ console.log(compSelection + "comp Selection");
 }
 
 function howToPlay(){
- alert("click either rock paper or ... and confirm your selection once this is completed the second user will be able to place their selection then rumble!");   
+ alert("click either rock paper or ... and confirm your selection once this is completed the second user will be able to place their selection then rumble!")   
 }
 
 

@@ -7,16 +7,16 @@ var outcome = null;
 
 const Rock = 1;
 const Paper = 2;
-const Scissors = 3;
+const Scissors = 3
 
 function randomNumberGen() {
-   randomNumber = Math.ceil(Math.random() * 3);
-compSelection = randomNumber;
-console.log(compSelection + "comp Selection");
+   randomNumber = Math.ceil(Math.random() * 3)
+compSelection = randomNumber
+console.log(compSelection + "comp Selection")
 }
 
 function howToPlay(){
- alert("click either rock paper or ... and confirm your selection once this is completed the second user will be able to place their selection then rumble!");   
+ alert("click either rock paper or ... and confirm your selection once this is completed the second user will be able to place their selection then rumble!")   
 }
 
 

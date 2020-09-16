@@ -22,7 +22,7 @@ function howToPlay(){
 
 function compSelectionSvg() {
     if (compSelection = 1 ) {
-        document.getElementById("mainCard").innerHTML = 
+        // document.getElementById("mainCard").innerHTML = 
         <div>
    <h1>Rocky Bot Chose</h1>
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-award-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
